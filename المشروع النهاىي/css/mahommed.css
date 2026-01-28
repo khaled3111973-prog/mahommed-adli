@@ -1,0 +1,205 @@
+ 
+ 
+ body{
+ background: url (  "**/img/mahommed.jpg")   ;
+ background-color: rgb(177, 169, 169);
+ }
+  a
+  {
+ text-decoration: none;
+ 
+  }
+  a:link 
+  {
+color: rgb(236, 21, 21);
+  }a:hover{
+    color: blueviolet;
+  }
+  .body 
+  {
+width: 70%;
+margin: 20px auto;
+ 
+
+  }
+  
+/*-------------------haeder------------------------*/
+  .header1 img{
+    width: 100%;
+
+  }
+  .header1 nav{ 
+    background-color:#e74c3c;
+    height: 40px;
+    border-radius:5px ;
+-moz-bordre-radius:5px;
+-webkit-border-radius:5px ;
+
+  }
+.header1 nav ul li{
+    display: inline;
+}
+.header1 a:link, .header1 a:visited{
+padding: 10px 40px;
+    color: white;
+ height: 20px;
+    display: inline-block;
+}
+ 
+.header1 a:hover, .header1 a:active{
+padding: 10px 40px;
+    color: rgb(253, 248, 248);
+    background-color:#f58233;
+   text-emphasis: none;
+   text-shadow: none;   
+}
+.header1 nav ul {
+  text-align: center;
+list-style: none;
+margin: 0px auto;
+}
+/*---------------------div 1----------------------*/
+.div1 
+{
+  width: 70%;
+  float:left;
+}
+.section1  
+{
+background-color:white;
+padding: 3%;
+border-radius: 5px;
+-moz-bordre-radius:5px;
+-webkit-border-radius:5px ;
+margin-top: 3%;
+}
+ .footer1{
+  font-size: 90%;
+  color: #999;
+  font-style: italic;
+  margin: -10px;
+ }
+.img123{
+  width: 100%;
+}
+figure{
+  margin: 25px 0;
+  font-size: 80%;
+  color: #999;
+}
+/*---------------------aside---------------------*/
+.aside456
+{
+
+
+background-color:white;
+padding: 2%;/*مساحه جانبيه*/
+ width: 24%;
+border-radius: 5px;
+-moz-bordre-radius:5px;
+-webkit-border-radius:5px ;/*بخلي الشكل دائري عن الجنب*/
+float: left;
+margin: 2% 0 0 2%;
+}
+
+.aa{
+  width: 100%;
+  float: left;
+  margin: 20px;
+  background-color: #f58233;
+ border-radius: 5px;
+-moz-bordre-radius:5px;
+-webkit-border-radius:5px ;
+.mm {
+text-align: center;
+color: #f8f5f5;
+width: 90%;
+
+ 
+}
+  .kk
+ {
+  text-align: center;
+    color: #f8f5f5;
+  
+  margin: 0 100px;
+}
+/*-------------------------css mobil-------------------------*/
+ @media screen  and(max-width :480px)
+ {
+.body
+{
+width: 90%;
+font-size: 95%;
+
+}
+ 
+.header1 nav{
+  height: 160px;
+}
+.header1 nav ul
+{
+width: 1005;
+padding: 0px;
+}
+.header1 nav ul li 
+{
+  display: inline;
+}
+.header1 a:link, .header1 a:visited
+{
+  display: block;
+}
+.header1 a:hover, .header1 a:active
+{
+  color: white;
+  background-color: #f58233;
+}
+.div1
+
+{ width: 100%;}
+.aside456{width: 95%;}
+ 
+ }
+  /*-------------------------css mobil ibad-------------------------*/
+ @media screen and(max-width:680px)
+  {
+  .body
+{
+width: 90%;
+font-size: 95%;
+
+}
+  
+ }
+ .form1
+ {
+    text-align: center;
+list-style: none;
+margin: 0px auto;
+}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

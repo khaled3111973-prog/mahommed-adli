@@ -1,0 +1,94 @@
+ <!DOCTYPE html>
+ 
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>خريطة احتياجات غزة</title>
+
+    
+   <link rel="stylesheet" href="https://cdn.jsdelivr.
+   net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mahommed.css">
+    <link rel="stylesheet" href="mahommed.js">
+    <script src="mahommed.js"></script>
+  
+ 
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+        <a class="navbar-brand" href="#">خريطة احتياجات غزة</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">الرئيسية</a></li>
+                <li class="nav-item"><a class="nav-link" href="#needs">الاحتياجات</a></li>
+                <li class="nav-item"><a class="nav-link" href="mahommed.html">طلب مساعدة</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+ 
+<section class="hero text-center">
+    <div class="container">
+        <h1>خريطة احتياجات غزة بعد الحرب</h1>
+        <p>اعرف أين وكيف يمكنك الوصول للمساعدات أو تقديمها</p>
+        <a href="#needs" class="btn btn-hero">عرض الاحتياجات</a>
+    </div>
+</section>
+
+<!-- Needs Section -->
+<section class="container my-5" id="needs">
+    <h2 class="text-center mb-4">الاحتياجات المتوفرة</h2>
+
+    <!-- Filters -->
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <select id="typeFilter" class="form-select">
+                <option value="all">كل الاحتياجات</option>
+                <option value="غذاء">غذاء</option>
+                <option value="دواء">دواء</option>
+                <option value="ماء">ماء</option>
+                <option value="إيواء">إيواء</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <select id="areaFilter" class="form-select">
+                <option value="all">كل المناطق</option>
+                <option value="الشمال">الشمال</option>
+                <option value="الوسط">الوسط</option>
+                <option value="الجنوب">الجنوب</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Table -->
+    <div class="table-responsive">
+        <table class="table table-bordered text-center">
+            <thead class="table-head">
+                <tr>
+                    <th>الاحتياج</th>
+                    <th>المنطقة</th>
+                    <th>الحالة</th>
+                    <th>إجراء</th>
+                </tr>
+            </thead>
+            <tbody id="needsTable">
+               
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer text-center">
+    <p>© 2026 - خريطة احتياجات غزة | مشروع جامعي أصلي</p>
+</footer>
+ 
+</body>
+</html>
