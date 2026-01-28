@@ -1,2 +1,3 @@
 # mahommed-adli
-good
+this repository was created as part of a universty assignment
+فاهس 
