@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>استمارة تسجيل مساعدات</title>
+     <link rel="stylesheet" href="mahommed.css">
+       <script src="mahommed.js"  ></script>
+
+</head>
+<body>
+
+<div class="container">
+    <h2>استمارة تسجيل للحصول على مساعدات</h2>
+
+    <form>
+        <!-- الاسم الرباعي -->
+        <label>الاسم الرباعي:</label>
+        <input type="text" placeholder="أدخل الاسم الرباعي"  >
+
+        <!-- رقم الهوية -->
+        <label>رقم الهوية:</label>
+        <input type="number" placeholder="أدخل رقم الهوية"  >
+ 
+        <!-- الحالة الاجتماعية -->
+        <label>الحالة الاجتماعية:</label>
+        <select  >
+            <option value="">-- اختر --</option>
+            <option>أعزب</option>
+            <option>متزوج</option>
+            <option>أرمل</option>
+            <option>مطلق</option>
+        </select>
+
+        <!-- عدد أفراد الأسرة -->
+        <label>عدد أفراد الأسرة:</label>
+        <input type="number" min="1"  >
+
+        <!-- نوع المساعدة -->
+        <label>نوع المساعدة المطلوبة:</label>
+        <div class="checkbox-group">
+            <label><input type="checkbox"> مواد غذائية</label>
+            <label><input type="checkbox"> طحين</label>
+            <label><input type="checkbox"> زيت / سيرج</label>
+            <label><input type="checkbox"> مياه</label>
+            <label><input type="checkbox"> ملابس</label>
+        </div>
+
+        <!-- ملاحظات -->
+        <label>ملاحظات إضافية:</label>
+        <textarea placeholder="اكتب أي ملاحظات"></textarea>
+
+        <!-- زر الإرسال -->
+        <button type="submit">تسجيل</button>
+           <button type="submit"><a href="index.html">العوده</a></button>
+    </form>
+</div>
+
+</body>
+ <footer class="footer1">
+        <p>© 2026 دعم غزة</p>
+    </footer>
+
+ 
+</html>

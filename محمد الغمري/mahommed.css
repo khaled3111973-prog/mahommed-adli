@@ -1,0 +1,301 @@
+body {
+    font-family: Tahoma, Arial, sans-serif;
+background:url(img/mahommed.jpg) ;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+  
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+.needs {
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+ .qq1
+ {
+    width: 100%;
+ }
+
+ 
+
+.needs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.needs li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #219150;
+}
+ 
+ /*--------------------------------------------------------------------------*/
+
+ 
+  
+  a:link 
+  {
+color: rgb(236, 21, 21);
+  }a:hover{
+    color: rgb(87, 90, 248);
+  }
+ .h1
+
+ {
+    color: #fa0318;
+ }
+  
+/*-------------------haeder------------------------*/
+  
+  .nn
+  {width: 70%;
+margin: 20px auto;
+ 
+  }
+ .ahamed{
+    width: 70%;
+  background-color:rgb(246, 246, 250);
+padding: 3%;
+border-radius: 5px;
+-moz-bordre-radius:5px;
+-webkit-border-radius:5px ;
+margin-top: 3%;
+
+ }
+ .lll
+ {
+    width: 100%;
+ }
+ 
+/*---------------------div 1----------------------*/
+#mm{
+    
+width: 70%;
+margin: 20px auto;
+ 
+background:url(img/mahommed.jpg) ;
+ 
+ 
+}
+.div1 
+{
+  width: 70%;
+  float:left;
+}
+.medicine 
+{
+background-color:rgb(246, 246, 250);
+padding: 3%;
+border-radius: 5px;
+-moz-bordre-radius:5px;
+-webkit-border-radius:5px ;
+margin-top: 3%;
+}
+ 
+.img123{
+  width: 100%;
+}
+figure{
+  margin: 25px 0;
+  font-size: 80%;
+  color: #999;
+}
+/*---------------------aside---------------------*/
+.aside456
+{
+
+
+background-color:white;
+padding: 2%;/*مساحه جانبيه*/
+ width: 24%;
+border-radius: 5px;
+-moz-bordre-radius:5px;
+-webkit-border-radius:5px ;/*بخلي الشكل دائري عن الجنب*/
+float: left;
+margin: 2% 0 0 2%;
+}
+ /*----------------------------------------------------------*/
+ body {
+   
+    direction: rtl;
+}
+
+.container {
+    width: 400px;
+    margin: 40px auto;
+    background: #887777;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 80px;
+}
+
+.checkbox-group {
+    margin-top: 10px;
+}
+
+.checkbox-group label {
+    font-weight: normal;
+    display: block;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2c7be5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a5dc9;
+}
+
+ /*---------------------------------------------*/
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 35%;
+    max-width: 50%;
+    margin: auto;
+}
+
+.footer1 {
+     width: 100%;
+  float: left;
+  margin: 20px;
+  background-color: #2c3e50;
+ border-radius: 5px;
+-moz-bordre-radius:5px;
+-webkit-border-radius:5px ;
+   
+
+}
+ 
+/*-------------------------css mobil-------------------------*/
+ @media screen  and(max-width :480px)
+ {
+.body
+{
+width: 90%;
+font-size: 95%;
+
+}
+ 
+.header1 nav{
+  height: 160px;
+}
+.header1 nav ul
+{
+width: 1005;
+padding: 0px;
+}
+.header1 nav ul li 
+{
+  display: inline;
+}
+.header1 a:link, .header1 a:visited
+{
+  display: block;
+}
+.header1 a:hover, .header1 a:active
+{
+  color: white;
+  background-color: #f58233;
+}
+.div1
+
+{ width: 100%;}
+.aside456{width: 95%;}
+ 
+ }
+  /*-------------------------css mobil ibad-------------------------*/
+ @media screen and(max-width:680px)
+  {
+  .body
+{
+width: 90%;
+font-size: 95%;
+
+}
+  
+ }
+ .form1
+ {
+    text-align: center;
+list-style: none;
+margin: 0px auto;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
